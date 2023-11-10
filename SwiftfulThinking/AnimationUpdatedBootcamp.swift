@@ -22,7 +22,7 @@ struct AnimationUpdatedBootcamp: View {
             ZStack {
                 Rectangle()
                     .frame(width: 100, height: 100)
-                    .frame(maxWidth: .infinity, alignment: f ? .trailing : .leading)
+                    .frame(maxWidth: .infinity, alignment: animation1 ? .trailing : .leading)
                     .background(Color.green)
                     .frame(maxHeight: .infinity, alignment: animation2 ? .bottom : .top)
                     .background(Color.orange)
